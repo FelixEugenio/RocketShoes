@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
-import { imgHeader } from './styles';
- import logo from '../../assets/images/logo.svg';
+import { MdShoppingBasket} from 'react-icons/md';
+import { imgHeader,Carr } from './styles';
+import logo from '../../assets/images/logo.svg';
 
 function Header() {
   return (
@@ -10,6 +10,15 @@ function Header() {
     <Link to="/">
     <img src={logo} alt="Rocketshoes"/>
     </Link>
+
+    <Carr to="/">
+        <div>
+            <strong>Meu Carrinho</strong>
+            <span>3 Itens</span>
+        </div>
+        <MdShoppingBasket size={36} color="#fff"/>
+
+    </Carr>
 
     </imgHeader>
   );
