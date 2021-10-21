@@ -7,7 +7,7 @@ import { imgHeader } from './styles';
 function Header() {
   return (
     <imgHeader>
-    <Link>
+    <Link to="/">
     <img src={logo} alt="Rocketshoes"/>
     </Link>
 
