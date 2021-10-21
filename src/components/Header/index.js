@@ -1,10 +1,14 @@
 import React from 'react';
 
- import { Container } from './styles';
+import { imgHeader } from './styles';
  import logo from '../../assets/images/logo.svg';
 
 function Header() {
-  return <img src={logo} alt="Rocketshoes"/>
+  return (
+    <imgHeader>
+    <img src={logo} alt="Rocketshoes"/>
+    </imgHeader>
+  );
 
 
 }
