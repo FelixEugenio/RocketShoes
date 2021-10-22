@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { MdShoppingBasket} from 'react-icons/md';
-import { imgHeader,Carr } from './styles';
+import { ImgHeader,Carr } from './styles';
 import logo from '../../assets/images/logo.svg';
 
-function Header() {
+export default function Header() {
   return (
-    <imgHeader>
+    <ImgHeader>
     <Link to="/">
     <img src={logo} alt="Rocketshoes"/>
     </Link>
@@ -20,10 +20,10 @@ function Header() {
 
     </Carr>
 
-    </imgHeader>
+    </ImgHeader>
   );
 
 
 }
 
-export default Header;
+
