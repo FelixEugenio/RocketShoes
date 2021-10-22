@@ -16,7 +16,7 @@ footer{
 
     button{
     background: "#7159c1";
-    color: #fff;
+    color: black;
     border-radius: 4px;
     padding: 12px 20px;
     font-weight: bold;
@@ -25,6 +25,7 @@ footer{
 
     &:hover{
         background: ${darken(0.03,'#7159c1')};
+        color: white;
 
     }
 }
